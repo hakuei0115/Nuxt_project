@@ -9,8 +9,8 @@
 ## 如何使用
 
 - Clone 專案
-  - ``git clone https://github.com/hakuei0115/Nuxt_testing``
-  - ``cd Nuxt_testing``
+  - ``git clone https://github.com/hakuei0115/Nuxt_project.git``
+  - ``cd Nuxt_project``
 - 安裝依賴套件
   - ``npm install``
 - 啟動本地開發伺服器
@@ -32,70 +32,29 @@
 
 ## 主要學習內容
 
-### Day 13 SEO meta Components (11/27 完成)
-
-- 學習如何使用 Nuxt3 的 SEO 元件來設定靜態與動態頁面 Meta 資訊
-- 理解如何傳入具響應性的資料來動態更新 SEO Meta 資訊
-
-### Day 12 useSeoMeta 與 useServerSeoMeta (11/27 完成)
-
-- 使用 useSeoMeta 與 useServerSeoMeta Composable 設定 Meta 資訊
-- 理解 useSeoMeta 與 useServerSeoMeta 的差異
-
-### Day 11 Global head Settings 與 useHead  (11/21 完成)
-
-- 在 nuxt.config.ts 設定全域的 SEO 設定
-- 使用 useHead 組合函式設定單一頁面的SEO 設定
-
-### Day 10 useFetch 與 useAsyncData (11/20 完成)
-
-- 學習如何使用 useFetch 與 useAsyncData，包括帶入參數和使用回傳參數的方法。
-- 理解這兩個方法都是基於 $fetch 進行封裝。
-
-### Day 9 $fetch 與 ofetch (11/14 完成)
-
-- 理解 Nuxt3 基於 ofetch 套件提供了 $fetch 方法
-- 學習在 Nuxt3 中使用 $fetch 進行 API 請求
-- 了解 $fetch 使用的注意事項
-
-### Day 8 動態路由與 404 錯誤頁面處理 (11/13 完成)
-
-- 學習建立並使用動態路由
-- 學習如何配置 404 錯誤頁面
-
-### Day 7 嵌套式路由、 useRouter & useRoute (11/13 完成)
-
-- 學習建立並使用嵌套式路由
-- 學習在 Nuxt3 使用 useRouter 和 useRoute
-
-### Day 6 NuxtLink 與 路由基礎配置 (11/12 完成)
-
-- 學習使用 NuxtLink 實作頁面導航
-- 學習 Nuxt3 路由系統的基礎配置
-
-### Day 5 使用指令建立 Composables (11/11 完成)
+### Day 5 使用指令建立 Composables (4/17 完成)
 
 - 學習使用指令建立 Composables
 - 學習透過 Auto Imports 使用 Composables
 
-### Day 4 使用指令建立元件 (11/11 完成)
+### Day 4 使用指令建立元件 (4/17 完成)
 
 - 學習使用指令建立元件
 - 學習透過 Auto Imports 使用元件
 
-### Day 3 使用指令建立 Layouts (11/11 完成)
+### Day 3 使用指令建立 Layouts (4/17 完成)
 
 - 了解 Nuxt3 中的 Layouts 概念
 - 使用 Nuxt3 指令建立 Layout
 - 在頁面中使用指定的 Layout
 
-### Day 2 Nuxt3 專案引入 CSS 樣式 (11/5 完成)
+### Day 2 Nuxt3 專案引入 CSS 樣式 (4/17 完成)
 
 - 在 Nuxt3 中加入並使用 CSS 預處理器（SCSS）
 - 在 Nuxt3 中設定全域共用樣式
 - 在 Nuxt3 中設定全域共用變數
 
-### Day 1 起手式 : 建立 Nuxt3 專案 (11/5 完成)
+### Day 1 起手式 : 建立 Nuxt3 專案 (4/17 完成)
 
 - 建立 Nuxt3 專案
 - Nuxt 基礎指令
