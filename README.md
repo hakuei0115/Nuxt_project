@@ -32,7 +32,12 @@
 
 ## 主要學習內容
 
-### Day 5 使用指令建立 Composables (4/17 完成)
+### Day 6 NuxtLink 與 路由基礎配置 (4/20 完成)
+
+- 學習使用 NuxtLink 實作頁面導航
+- 學習 Nuxt3 路由系統的基礎配置
+
+### Day 5 使用指令建立 Composables (4/18 完成)
 
 - 學習使用指令建立 Composables
 - 學習透過 Auto Imports 使用 Composables
