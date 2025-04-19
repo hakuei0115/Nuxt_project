@@ -7,11 +7,6 @@ onMounted(() => {
   getNewList();
   isLoading.value = true;
 });
-
-definePageMeta({
-  layout: false,
-})
-
 </script>
 
 <template>

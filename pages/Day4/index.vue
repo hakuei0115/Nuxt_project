@@ -1,8 +1,4 @@
-<script lang="ts" setup>
-definePageMeta({
-  layout: false,
-})
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <h1>產品</h1>
