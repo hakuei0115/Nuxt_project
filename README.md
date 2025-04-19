@@ -32,6 +32,10 @@
 
 ## 主要學習內容
 
+### Day 7 嵌套式路由、 useRouter & useRoute (4/20 完成)
+- 學習建立並使用嵌套式路由
+- 學習在 Nuxt3 使用 useRouter 和 useRoute
+
 ### Day 6 NuxtLink 與 路由基礎配置 (4/20 完成)
 
 - 學習使用 NuxtLink 實作頁面導航
