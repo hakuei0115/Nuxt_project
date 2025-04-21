@@ -23,8 +23,11 @@ interface Rooms {
 
 export const useRoom = () => {
   const roomsList = ref<Rooms[]>([]);
+  const roomDetail = ref<Rooms[]>([]);
+  const isLoading = ref<boolean>(false);
 
   const getRooms = async () => {
+    isLoading.value = true;
     await fetch("https://nuxr3.zeabur.app/api/v1/rooms")
       .then((res) => res.json())
       .then((data) => {
@@ -32,11 +35,33 @@ export const useRoom = () => {
       })
       .catch((err) => {
         console.error(err);
+      })
+      .finally(() => {
+        isLoading.value = false;
+      });
+  }
+
+  const getRoomDetail = async (id: string) => {
+    isLoading.value = true;
+    await fetch(`https://nuxr3.zeabur.app/api/v1/rooms/${id}`)
+      .then((res) => res.json())
+      .then((data) => {
+        roomDetail.value = data.result;
+
+      })
+      .catch((err) => {
+        console.error(err);
+      })
+      .finally(() => {
+        isLoading.value = false;
       });
   }
 
   return {
     roomsList,
-    getRooms
+    roomDetail,
+    isLoading,
+    getRooms,
+    getRoomDetail,
   }
 }
