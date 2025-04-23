@@ -32,6 +32,10 @@
 
 ## 主要學習內容
 
+### Day 12 - useSeoMeta 與 useServerSeoMeta (4/23 完成)
+- 使用 useSeoMeta 與 useServerSeoMeta Composable 設定 Meta 資訊
+- 理解 useSeoMeta 與 useServerSeoMeta 的差異
+
 ### Day11 - Global head Settings 與 useHead (4/23 完成)
 - 在 nuxt.config.ts 設定全域的 SEO 設定
 - 使用 useHead 組合函式設定單一頁面的SEO 設定
