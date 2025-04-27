@@ -32,6 +32,10 @@
 
 ## 主要學習內容
 
+### Day 14 - 登入功能與存入 Cookie (4/26 完成)
+- 學習如何在 Nuxt3 中實作登入功能，並透過 Cookie 存取與維護使用者的登入狀態
+- 學習使用 Nuxt3 useCookie Composable 存入 Token
+
 ### Day 13 - SEO Meta Components (4/25 完成)
 - 學習如何使用 Nuxt3 的 SEO 元件來設定靜態與動態的頁面 Meta 資訊
 - 理解如何傳入具響應性的資料來動態更新 SEO Meta 資訊
