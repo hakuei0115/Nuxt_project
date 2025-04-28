@@ -32,6 +32,10 @@
 
 ## 主要學習內容
 
+### Day 15 - middleware 與登入狀態驗證 (4/29 完成)
+- 學習 Nuxt3 匿名、具名、全域 middleware ( 路由中間件 ) 的使用方法
+- 學習使用 middleware 驗證登入狀態
+
 ### Day 14 - 登入功能與存入 Cookie (4/26 完成)
 - 學習如何在 Nuxt3 中實作登入功能，並透過 Cookie 存取與維護使用者的登入狀態
 - 學習使用 Nuxt3 useCookie Composable 存入 Token
