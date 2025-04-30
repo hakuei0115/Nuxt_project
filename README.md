@@ -32,6 +32,11 @@
 
 ## 主要學習內容
 
+### Day 16 - Nuxt3 插件 ( Plugins )  - provide
+- 學習建立插件的基本結構
+- 學習使用插件的 provide 方法建立全域的輔助函式 ( helper )
+- 理解插件的執行環境設置 ( client / server )
+
 ### Day 15 - middleware 與登入狀態驗證 (4/29 完成)
 - 學習 Nuxt3 匿名、具名、全域 middleware ( 路由中間件 ) 的使用方法
 - 學習使用 middleware 驗證登入狀態
