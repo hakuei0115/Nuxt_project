@@ -32,7 +32,10 @@
 
 ## 主要學習內容
 
-### Day 16 - Nuxt3 插件 ( Plugins )  - provide
+### Day 17 - Nuxt3 插件 ( Plugins ) - directive (4/30 完成)
+- 學習在 Nuxt3 使用插件註冊自定義的 Vue 指令
+
+### Day 16 - Nuxt3 插件 ( Plugins )  - provide (4/30 完成)
 - 學習建立插件的基本結構
 - 學習使用插件的 provide 方法建立全域的輔助函式 ( helper )
 - 理解插件的執行環境設置 ( client / server )
