@@ -32,6 +32,11 @@
 
 ## 主要學習內容
 
+### Day 18 - Nuxt3 插件 ( Plugins ) - 整合 Vue3 插件 (5/3 完成)
+- 學習在 Nuxt3 中整合 Vue3 插件
+- 學習使用 defineNuxtPlugin 掛載第三方插件和全域註冊元件
+前言
+
 ### Day 17 - Nuxt3 插件 ( Plugins ) - directive (4/30 完成)
 - 學習在 Nuxt3 使用插件註冊自定義的 Vue 指令
 

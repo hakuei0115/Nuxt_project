@@ -22,6 +22,7 @@
       <NuxtLink to="/Day15">Day15</NuxtLink>
       <NuxtLink to="/Day16">Day16</NuxtLink>
       <NuxtLink to="/Day17">Day17</NuxtLink>
+      <NuxtLink to="/Day18">Day18</NuxtLink>
     </nav>
   </header>
   <slot />
