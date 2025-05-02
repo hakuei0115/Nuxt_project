@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   css: [
     '@/assets/stylesheets/all.scss'
   ],
+  modules: ["@pinia/nuxt"],
   app: {
     head: {
       title: 'Freyja | 高雄頂級旅館 - 提供奢華住宿體驗',

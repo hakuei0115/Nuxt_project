@@ -32,6 +32,10 @@
 
 ## 主要學習內容
 
+### Day 19 - Nuxt3 狀態管理 - Pinia - ( 1 ) (5/3 完成)
+- 學習在 Nuxt3 中安裝並整合 Pinia 狀態管理工具
+- 學習在 Nuxt3 中建立與操作基礎的 Pinia 結構
+
 ### Day 18 - Nuxt3 插件 ( Plugins ) - 整合 Vue3 插件 (5/3 完成)
 - 學習在 Nuxt3 中整合 Vue3 插件
 - 學習使用 defineNuxtPlugin 掛載第三方插件和全域註冊元件
